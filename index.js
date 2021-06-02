@@ -15,7 +15,7 @@ class Circle {
     return this.radius*2*Math.PI
   }
   
-  set circumference( circumference ) {
+  set circumference ( circumference ) {
     this.radius = circumference / ( pi * 2 )
   }
   

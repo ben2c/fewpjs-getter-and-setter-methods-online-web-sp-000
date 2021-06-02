@@ -20,7 +20,7 @@ class Circle {
   }
   
   get area() {
-    return ((this.radius)**2)*Math.PI
+    return pi * ( this.radius * this.radius )
   }
   
   set area(area){
